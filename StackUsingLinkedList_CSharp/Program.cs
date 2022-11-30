@@ -16,4 +16,22 @@ namespace StackUsingLinkedList_CSharp
             Next = n;
         }
     }
+
+    class Stack
+    {
+        Node top;
+
+        public Stack()
+        {
+            top = null;
+        }
+
+        bool empty()
+        {
+            if (top == null)
+                return (true);
+            else
+                return (false);
+        }
+    }
 }
