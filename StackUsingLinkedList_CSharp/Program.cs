@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace StackUsingLinkedList_CSharp
 {
-    class Program
+    class Node
     {
-        
+        public int info;
+        public Node Next;
+        public Node(int i, Node n)
+        {
+            info = i;
+            Next = n;
+        }
     }
 }
